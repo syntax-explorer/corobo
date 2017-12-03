@@ -9,7 +9,7 @@ class Coala_lowercase_c(BotPlugin):
 
     def callback_message(self, msg):
         emots = [':(', ':angry:', ':confounded:',
-                 ':disappointed:', ':triumph:']
+                 ':disappointed:', ':triumph:', ':rage:']
 
         match_coala = re.search(r'(?:^|[^\w])C+[Oo]+[Aa]+[Ll]+[Aa]+(?:$|[^\w])',
                                 msg.body)
